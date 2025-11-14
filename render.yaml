@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: GBOB-Auto-System
+    env: python
+    branch: main
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn main:app"
+    plan: starter
+    autoDeploy: true
+
