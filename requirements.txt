@@ -1,1 +1,6 @@
 flask
+gunicorn
+requests
+google-api-python-client
+google-auth
+
