@@ -1,2 +1,8 @@
-# GBOB-Auto-System
-Guest Blogging Outreach Business Automation
+# GBOB Auto System
+
+✔ Auto Email Reply  
+✔ Auto Website Score  
+✔ Google Sheet Sync  
+✔ Fully Automated Outreach  
+
+Built By: **Liaqat**
