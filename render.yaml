@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: GBOB-Auto-System
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn main:app
+    envVars:
+      - key: SERVICE_ACCOUNT_JSON
+        sync: false
+      - key: SHEET_ID
+        sync: false
+      - key: GMAIL_USER
+        sync: false
+      - key: GMAIL_APP_PASSWORD
+        sync: false
